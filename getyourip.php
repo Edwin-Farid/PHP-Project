@@ -14,7 +14,7 @@ $information = file_get_contents('http://ip-api.com/json/' . $ip4->ip . '?fields
 
 $dataIp = json_decode($information);
 echo "------------------------------------------------- <br>";
-echo "Hai, this is your specific information now.." . "<br>";
+echo "Hai, ini informasi spesifik.." . "<br>";
 echo "Your Continent : " . $dataIp->continent . "<br>";
 echo "Your Country : " . $dataIp->country . "<br>";
 echo "Your Currency : " . $dataIp->currency . "<br>";
